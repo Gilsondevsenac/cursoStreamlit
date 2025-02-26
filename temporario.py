@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+
 st.header("cabeçalho")
 st.toggle("botão salvar")
 st.text_area("Enter text")
@@ -16,6 +17,18 @@ df = pd.DataFrame(
     {"command": "st.balloons", "rating":5, "is_winget": False},
     {"command": "st.time_input", "rating":3,"is_winget": True},
   ]
+)
+st.json(
+    {
+        "foo": "bar",
+        "stuff": [
+            "stuff 1",
+            "stuff 2",
+            "stuff 3",
+        ],
+        "level1": {"level2": {"level3": {"a": "b"}}},
+    },
+    expanded=2,
 )
 
 edited_df = st.data_editor(df)
