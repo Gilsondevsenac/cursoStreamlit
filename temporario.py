@@ -10,7 +10,7 @@ st.selectbox("Qual a sua cor favorita?", ("Azul", "Vermelho","Verde","Azul"))
 st.button("Botão Salvar")
 st.color_picker("Pick A Color", "#00f900")
 st.feedback("stars")
-df = pd.Dataframe(
+df = pd.DataFrame(
   [
     {"command": "st.slectbox", "rating":4, "is_winget": True},
     {"command": "st.balloons", "rating":5, "is_winget": False},
