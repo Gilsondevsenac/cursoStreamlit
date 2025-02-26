@@ -6,3 +6,6 @@ st.text_input("Movie title", "Life of Gilson")
 st.selectbox("Qual a sua cor favorita?", ("Azul", "Vermelho","Verde","Azul"))
 
 st.button("Botão Salvar")
+st.color_picker("Pick A Color", "#00f900")
+st.feedback("stars")
+
