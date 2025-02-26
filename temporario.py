@@ -4,6 +4,6 @@ st.toggle("botão salvar")
 st.text_area("Enter text")
 st.text_input("Movie title", "Life of Gilson")
 st.selectbox("Qual a sua cor favorita?", ("Azul", "Vermelho","Verde","Azul"))
-st.whrite ("kamehamehamehamehaaaaaaaaaaaaaaaaaaaaaaa")
+st.write(*args, unsafe_allow_html=False, **kwargs)
 
 st.button("Botão Salvar")
