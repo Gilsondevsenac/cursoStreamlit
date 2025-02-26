@@ -12,8 +12,8 @@ st.feedback("stars")
 df = pd.Dataframe(
   [
     {"command":"st.slectbox","rating":4,"is_winget":True},
-    {"command":"st.slectbox","rating":5,"is_winget":False},
-    {"command":"st.slectbox","rating":3,"is_winget":True},
+    {"command":"st.balloons","rating":5,"is_winget":False},
+    {"command":"st.time_input","rating":3,"is_winget":True},
   ]
 )
 
