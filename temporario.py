@@ -17,4 +17,4 @@ df = pd.Dataframe(
   ]
 )
 
-edited_df=st.data_editor(df)
+edited_df = st.data_editor(df)
